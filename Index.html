@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body> 
+    <header>
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="Mi-primer-website.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+      </div>
+    </header>
+    <main>
+      <!-- Contenido principal -->
+    <div class="container"> 
+      <button onclick="showAlert()"aria-label="Haz clic en mí"> ¡Haz clic en mí!</button>
+      <h1>Bienvenidos a mi primer Website!</h1>
+      <section>
+      <div class="row">
+        <div class="column">
+          <!--Columna uno "YO SOY"-->
+          <h2>Yo soy</h2>
+            <ul>Soy Martin, ¡y esta es mi primera página web!
+             Estoy apredndiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.
+             A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.</ul>
+        </div>
+      </section>
+      <section>
+              <div class="column">
+           <h2>Acerca de mí</h2>
+      <!--Columna dos "ACERCA DE MÍ"-->
+            <ul>Como ya dije, mi nombre es Martín. Soy Licenciado en periodismo. Nacido en Argentina, en CABA.
+               Soy un amante de la tecnología, lo que me llevo a hacer mi primera página web con wordpress
+               Mi página, parairpicando.com trata temas de gastronomía, bebidas, viajes, entre otros
+               Recientemente fui hackeado y mi curiosidad me llevó a meterme en el mundo de la programación.</ul>
+              </div>  
+      </section>
+                <section>
+              <div class="column">
+      <h3>Mis expectativas del curso</h3>
+      <!--Columna TRES "EXPECTATIVAS DEL CURSO"-->
+                      <ul>Busco fortalecer los pocos conocimientos que tengo en esta temática. Aprender a leer y armar códigos.
+                         Pretendo poder hacer páginas web, ayudar a otros en temas de hackeos y, por qué no, poder vivir de esto</ul>
+                </section>
+              </div>
+        </div>   
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oqUqR08c1OI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     <form id="myForm">
+                      <!--Campo para Mail-->
+                      <label for="email">Correo electrónico:</label>
+                      <input type="email" id="email" name="email" required>
+                      <br>
+
+                      <!--Campo para Nombre-->
+                      <label for="Nombre">Nombre:</label>
+                      <input type="Nombre" id="Nombre" name="Nombre" required>
+                      <br>
+
+                      <!--Campo para selección del país-->
+                      <label for="País">País:</label>
+                        <select id="País" name="País">
+                      <option value="Argentina">Argentina</option>
+                      <option value="Francia">Francia</option>
+                      <br>
+                        </select>
+
+                      <button type="submit">Enviar</button>
+
+                  </form>
+    <script src="script.js"></script>
+  </main>
+    <footer>
+      <!-- Contenido del pie de página -->
+      <p class="pie">&copy; 2023 Nombre de tu sitio web. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+  </html>

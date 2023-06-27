@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style> 
+    .imagenes {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    </style>
+  </head>
+  
+  <body> 
+    <div class="container-nav">
+        <nav class="navbar" role="navigation">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+      </div>
+    <div class="container"> 
+      <button onclick="showAlert()"> ¡Haz clic en mí!</button>
+      <h1>Acerca de</h1>
+        <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
+        <div class="imagenes">
+        <img src="ML1.jpg" alt="Martin tw" width="300px" height="300px"/>
+        <img src="ML2.jpg" alt="Martin linkedin" width="300px" height="300px"/>
+        <img src="ml3.jpg" alt="Pasión" width="300px" height="300px"/>
+        </div>
+    </div>
+                  
+    <script src="script.js"></script>
+  </body>
+</html>
